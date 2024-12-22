@@ -8,13 +8,13 @@ This class will send the 4 ping packets to the google.com and displays the respo
  */
 
 
-publsic class pingDestination {
+public class pingDestination {
     public static void main(String[] args) {
         try {
-            String command = "ping google.com";
+            String[] command = {"ping", "google.com"};
             
             // Execute the ping command
-            Process process = Runtime.getRuntime().exec (command);
+            Process process = Runtime.getRuntime().exec(command);
             
             // Read the output of the command
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
