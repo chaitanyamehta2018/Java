@@ -8,6 +8,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>20</maven.compiler.release>
-        <exec.mainClass>com.ats.beginners.Beginners</exec.mainClass>
+        <exec.mainClass>com.ats.beginners.HelloWorld</exec.mainClass>
     </properties>
 </project>
