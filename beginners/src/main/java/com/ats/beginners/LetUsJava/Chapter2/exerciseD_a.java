@@ -11,11 +11,8 @@ public class exerciseD_a {
         double dearnessAllowance = 0.4 * basicSalary;
         double  houserentAllowance = 0.2 * basicSalary;
         double grossSalary = basicSalary + dearnessAllowance + houserentAllowance;
-        
       
         System.out.println("Gross salary of employee is: "+ grossSalary);
-        
-        
         
     }
     
