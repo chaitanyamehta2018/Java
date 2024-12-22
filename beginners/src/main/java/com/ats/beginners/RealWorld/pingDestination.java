@@ -8,10 +8,7 @@ This class will send the 4 ping packets to the google.com and displays the respo
  */
 
 
-
-
-
-public class pingDestination {
+publsic class pingDestination {
     public static void main(String[] args) {
         try {
             String command = "ping google.com";
