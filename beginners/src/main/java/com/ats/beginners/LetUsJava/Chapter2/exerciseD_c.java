@@ -5,7 +5,7 @@ Assume that the maximum marks that can be obtained by a student in each subject 
  */
 package com.ats.beginners.LetUsJava.Chapter2;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class exerciseD_c {
     public static void main(String[] args) {
