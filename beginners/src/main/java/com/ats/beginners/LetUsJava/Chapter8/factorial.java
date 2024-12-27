@@ -25,7 +25,7 @@ public class factorial
     {
         int fact;
         if (num ==1)
-            return (1);
+            return 1;
         else
             fact = num * rec(num -1);
         return fact;
