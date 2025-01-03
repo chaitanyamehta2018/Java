@@ -1,3 +1,10 @@
+/*
+This code provides the insight about
+(i)How to define the array
+(ii)How to take input from keyboard for fetching array elements and how to print the array on the sout.
+(iii)How to find the smallest and largest numbers from the array for each row.
+*/
+
 package com.ats.beginners.LetUsJava.Chapter10;
 
 import java.util.*;
