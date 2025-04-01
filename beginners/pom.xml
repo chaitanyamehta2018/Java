@@ -10,4 +10,34 @@
         <maven.compiler.release>20</maven.compiler.release>
         <exec.mainClass>com.ats.beginners.HelloWorld</exec.mainClass>
     </properties>
+  
+  
+  <dependencies>
+    <!-- Apache POI for Excel (HSSF for .xls files) -->
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>5.2.3</version>
+    </dependency>
+
+    <!-- Apache POI for Workbook and Sheet interfaces (for .xlsx files) -->
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>5.2.3</version>
+    </dependency>
+
+    <!-- Required dependencies for Apache POI (XML parsing and compression) -->
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-compress</artifactId>
+        <version>1.21</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.xmlbeans</groupId>
+        <artifactId>xmlbeans</artifactId>
+        <version>5.1.1</version>
+    </dependency>
+</dependencies>
 </project>
