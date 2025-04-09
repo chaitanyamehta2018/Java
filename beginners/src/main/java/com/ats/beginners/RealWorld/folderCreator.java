@@ -7,7 +7,7 @@ public class folderCreator {
         String[] folderNames = {
             "2F_00", "2F_01", "2F_02", "2F_03",
             "2F_04", "2F_05", "2F_06", "2F_07",
-            "2F_08.1", "2F_08.2"
+            "2F_08.1", "2F_08.2", "SyAD"
         };
 
         // Base directory to create folders
